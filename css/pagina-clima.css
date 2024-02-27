@@ -1,0 +1,119 @@
+:root{
+    --cor-primaria:#2d3250 ;
+    --cor-destaque: #f5d163;
+    --cor-fundo: #efeeee;
+    --cor-primaria2:#2d3250bf ;
+    --cor-branco: #fdfdfd;
+    --cor-transicaoBOtao: #fcf1a5;
+
+}
+body{
+    background-image: url(../img/pexels-stephan-seeber-1054222.jpg);
+    background-size: cover;
+    background-position: center;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh
+}
+.hide{
+    display: none !important;
+}
+.container{
+    background-color:var(--cor-primaria2);
+    border-radius: 10px;
+    width: 300px;
+    height: 350px;
+    box-shadow: 0 0 10px #646464;
+    color: var(--cor-branco);
+    padding: 2rem;
+}
+
+/* boox-formulari */
+.box-formulario{
+    /* border: 1px solid red; */
+    flex-direction:column;
+    display: flex;
+    align-items: center;
+    
+}
+h3{
+    margin-bottom: 1rem;
+    font-family: "Ubuntu", sans-serif ;
+}
+.box-input{
+    display: flex;
+}
+.container input{
+    padding: .8rem;
+    border: none;
+    border-radius: 8px;
+    min-width: 200px;
+    background-color: var(--cor-branco);
+}
+.container button{
+    border-radius: 8px;
+    min-width: 50px;
+    margin-left: 5px;
+    cursor: pointer;
+    background-color: var(--cor-branco);
+    border: none;
+    transition: 0.5s ease;
+}
+.container button:hover{
+    background-color: var(--cor-transicaoBOtao);
+}
+.localizacao{
+    /* border: 2px solid white; */
+    margin-top: 5px;
+    display: flex;
+    justify-content: center;
+}
+.localizacao span{
+    font-family: "Ubunto",sans-serif;
+    font-size: 15px;
+    letter-spacing: 2px;
+}
+.box-temperatura{
+    /* border:  1px solid white; */
+    display: flex;
+    justify-content: center;
+    font-family: "Ubuntu" ,sans-serif;
+    font-size: 40px;
+    font-weight: 600;
+}
+.box-descricao{
+    /* border: 2px solid wheat;  */
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.texto-descricao{
+    /* border: 2px solid wheat;  */
+    display: flex;
+    align-items: center;
+    font-weight: bold;
+    text-transform: capitalize;
+}
+.box-descricao span{
+    font-family: "Ubuntu", sans-serif;
+    font-size: 15px;
+    font-weight: 400;
+}
+.detalhes-descricao{
+    /* border: 2px solid rgb(255, 255, 255); */
+    flex-direction: row;
+    display: flex;
+    justify-content: space-around;
+    padding: 10px;
+
+}
+
+.detalhes-descricao p{
+    font-family: "Ubuntu", sans-serif;
+    font-size: 20px;
+}
+

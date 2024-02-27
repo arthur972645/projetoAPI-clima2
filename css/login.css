@@ -1,0 +1,125 @@
+:root{
+    --cor-primaria:#2d3250 ;
+    --cor-destaque: #f5d163;
+    --cor-fundo: #efeeee;
+    --cor-primaria2:#2d3250bf ;
+    --cor-branco: #fdfdfd;
+    --cor-transicaoBOtao: #fcf1a5;
+
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Ubuntu", sans-serif;
+}
+body{
+    background-image: url(../img/pexels-francesco-ungaro-2835436.jpg);
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh
+    
+}
+.container{
+    background-color:var(--cor-primaria2);
+    border-radius: 10px;
+    width: 300px;
+    height: 350px;
+    box-shadow: 0 0 10px #646464;
+    color: var(--cor-branco);
+    padding: 2rem;
+    backdrop-filter: blur(4px);
+}
+.login{
+    display: flex;
+    justify-content: center;
+}
+.login p{
+    font-size: 30px;
+    font-weight: 600;
+    letter-spacing: 3px;
+}
+.box-usuario{
+    /* border: 2px solid red; */
+    margin-top: 15%;
+}
+.usuario{
+    font-size: 20px;
+    font-weight: 600;
+}
+.box-input{
+    /* border:  2px solid black; */
+    display: flex;
+    justify-content: center;
+}
+.box-input input{
+    min-width: 240px;
+    min-height: 40px;
+    border-radius: 20px;
+    border: none;
+    background: transparent;
+    border: 1px solid var(--cor-branco);
+    color: var(--cor-branco);
+    
+}
+.box-input input::placeholder{
+    color: var(--cor-branco);
+    text-indent: 10px;
+}
+.box-input input:focus{
+    outline: none;
+}
+.box-senha{
+    /* border: 2px solid red; */
+    margin-top: 15%;
+}
+.senha{
+    font-size: 20px;
+    font-weight: 600;
+}
+.box-senha-input{
+    display: flex;
+    justify-content: center;
+}
+.box-senha-input input{
+    min-width: 240px;
+    min-height: 40px;
+    border-radius: 20px;
+    border: none;
+    background: transparent;
+    border: 1px solid var(--cor-branco);
+    
+}
+.box-senha-input input::placeholder{
+    color: var(--cor-branco);
+    text-indent: 10px;
+}
+.box-senha-input input:focus{
+    outline: none;
+}
+
+.box-btn{
+    /* border: 2px solid red; */
+    display: flex;
+    justify-content: center;
+    margin-top: 15%;
+}
+.box-btn button{
+    min-width: 240px;
+    min-height: 40px;
+    border-radius: 10px;
+    border: none;
+    color: var(--cor-primaria);
+    font-size: 20px;
+    font-weight: 600;
+    transition: 0.5s ease;
+}
+.box-btn button:hover{
+    background-color: var(--cor-transicaoBOtao);
+    
+}
+
+
